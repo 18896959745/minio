@@ -1,4 +1,4 @@
-FROM golang:1.22-alpine AS build
+FROM registry.cn-hangzhou.aliyuncs.com/su_jinb/golang:1.22-alpine AS build
 
 ARG TARGETARCH
 ARG RELEASE
